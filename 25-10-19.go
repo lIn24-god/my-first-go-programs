@@ -18,7 +18,7 @@ func main() {
 	fmt.Printf("%d\n", a)
 	var name string
 	var age int
-	fmt.Println("Input:")
+	fmt.Println(`Input:`)
 	_, err := fmt.Scanln(&name, &age)
 	if err != nil {
 		return
